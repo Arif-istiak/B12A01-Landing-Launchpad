@@ -73,3 +73,38 @@ color: #111;
     width: 70%;
     border-radius: 20px;
 }
+.productive-users{
+    background-color: #f5f7ff;
+    padding: 50px 20px;
+    text-align: center;
+}
+.hero2{
+    background-color: #e2e7ff;
+    border-radius: 20px;
+    padding: 40px;
+    width: 1000px;
+    margin: 0 auto;
+}
+.title1{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #222;
+}
+.hero3{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.hero4 h3{
+    font-size: 36px;
+    color: #4c4cff;
+    margin: 0;
+}
+.hero4 p{
+    margin: 8px 0 0;
+    color: #555;
+    font-size: 16px;
+}
+
