@@ -67,7 +67,7 @@ color: #111;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 280px;
+    width: 380px;
 }
 .action-right img{
     width: 70%;
@@ -99,7 +99,7 @@ color: #111;
 }
 .hero4 h3{
     font-size: 36px;
-    color: #4c4cff;
+    color: #4E47FF;
     margin: 0;
 }
 .hero4 p{
@@ -107,4 +107,67 @@ color: #111;
     color: #555;
     font-size: 16px;
 }
+.contact-section{
+    background-color: #f5f8ff;
+    padding: 60px 20px;
+}
+.contact-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 1000px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.contact-left{
+    flex: 1;
+    width: 250px;
+    padding: center;
+}
+.contact-left h2{
+    font-size: 60px;
+    font-weight: bold;
+    color: #000;
+}
+.contact-right {
+     flex: 1;
+     width: 280px;
+}
+
+.contact-right form {
+  display: flex;
+  flex-direction: column;
+}
+.contact-right label {
+  margin: 10px 0 5px;
+  font-weight: 600;
+  color: #333;
+}
+
+.contact-right input,
+.contact-right textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  resize: none;
+}
+.contact-right textarea {
+  height: 100px;
+}
+
+.contact-right button {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #4c4cff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+}
+.contact-right button:hover {
+  background-color: #3b3bff;
+}
+
 
