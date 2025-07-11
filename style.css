@@ -4,7 +4,7 @@ body {
 }
 
 .hero1{
-background-image: url("/Assets/Hero-bg.png");
+background-image: url("./Assets/Hero-bg.png");
 height: max-content;
 padding: 34px;
   color: #111;
